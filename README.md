@@ -1,4 +1,4 @@
-# blog
+# business service
 mvn compile <br/>
 mvn package <br/>
 docker-compose up <br/>
