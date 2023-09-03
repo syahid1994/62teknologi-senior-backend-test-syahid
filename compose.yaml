@@ -1,13 +1,13 @@
 version: '3.8'
 services:
-  blog-syahid:
-    container_name: blog-syahid
+  business-syahid:
+    container_name: business-syahid
     build:
       context: .
     ports:
       - "8080:8080"
     environment:
-      SPRING_DATASOURCE_URL: jdbc:h2:mem:testdb
+      SPRING_DATASOURCE_URL: jdbc:h2:mem:testbusiness
       SPRING_DATASOURCE_USERNAME: sa
       SPRING_DATASOURCE_PASSWORD:
       SPRING_H2_CONSOLE_ENABLED: 'true'
